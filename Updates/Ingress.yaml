@@ -6,7 +6,7 @@ spec:
   entryPoints:
     - web
   routes:
-  - match: Host(`update.t.container-training.de`)
+  - match: Host(`update.a13.container-training.de`)
     kind: Rule
     services:
     - name: update-srv

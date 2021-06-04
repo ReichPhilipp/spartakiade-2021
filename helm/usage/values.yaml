@@ -1,0 +1,13 @@
+
+image:
+  repository: fpommerening/container-training
+  tag: webapp-v3
+
+ingressRoute:
+  enabled: false
+  entryPoint: web
+  host: webapp-example.local
+
+probe:
+  enabled: false
+

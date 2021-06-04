@@ -30,4 +30,4 @@ spec:
             - name: MYSQL_CNN
               value: "Server=mariadb-srv;Database=demo-database;Uid=root;Pwd=mypassword"
           args:
-            - "1"
+            - "4"

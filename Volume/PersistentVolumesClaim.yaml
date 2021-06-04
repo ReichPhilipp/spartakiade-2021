@@ -4,3 +4,9 @@ metadata:
   name: my-share-pvc
 
 spec:
+  storageClassName: local-path
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests: 
+      storage: 100Mi
